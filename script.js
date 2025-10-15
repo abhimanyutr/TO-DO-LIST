@@ -30,14 +30,14 @@ function taskAdd() {
   li.innerHTML = `
     <div class="d-flex justify-content-between mt-3 align-items-center">
       <div class="d-flex align-items-center task">
-        <input type="checkbox" class="custom-checkbox me-2">
-        <span class="fw-bold">${task.text}</span>
+        <input type="checkbox" class="custom-checkbox me-2 mybtn">
+        <span class="fw-bold taskResult">${task.text}</span>
       </div>
       <div>
-        <button onclick="editTask(this)" class="text-muted bg-transparent border-0 me-2">
+        <button onclick="editTask(this)" class="text-muted bg-transparent border-0 me-2 mybtn">
           <i class="fa-solid text-success fa-pen"></i> Edit
         </button>
-        <button onclick="deleteContent(this)" class="border-0 bg-transparent">
+        <button onclick="deleteContent(this)" class="border-0 bg-transparent mybtn">
           <i class="fa-solid text-danger fa-trash"></i>
         </button>
       </div>

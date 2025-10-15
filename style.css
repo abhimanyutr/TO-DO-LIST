@@ -1,14 +1,21 @@
+.head {
+  font-family: "BBH Sans Hegarty", sans-serif;
+  color: rgb(0, 39, 88);
+}
 #progressbar{
     width: 100%;
     height:10px;
-    background-color: rgba(0, 23, 99, 0.819);
+    background-color: rgba(0, 23, 97, 0.819);
     border-radius: 20px;
 }
 #progress{
     width:0%;
     height:10px;
-    background-color: rgb(255, 191, 0);
+    background-color: rgb(255, 208, 0);
     border-radius: 15px;
+}
+.taskResult{
+     font-family: "Libertinus Mono", monospace;
 }
 
  .custom-checkbox {
@@ -19,6 +26,13 @@
 .completed{
   text-decoration: line-through;
  color: rgb(138, 138, 138);
+}
+
+.mybtn {
+  transition: all 0.4s ease-in; 
+}
+.mybtn:hover {
+  transform: scale(1.2); 
 }
 
 @media (max-width: 467px) {
