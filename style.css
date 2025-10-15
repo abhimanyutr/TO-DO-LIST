@@ -21,4 +21,17 @@
  color: rgb(138, 138, 138);
 }
 
+@media (max-width: 467px) {
+  .todo-image {
+    height: 300px;
+    width: 50px; 
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 508px) {
+  .todo-image {
+    height: 600px; 
+  }
+}
 
